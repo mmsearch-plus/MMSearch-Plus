@@ -28,28 +28,13 @@ Official repository for the paper "[MMSearch-Plus: Benchmarking Provenance-Aware
 Load the dataset with automatic decryption using your canary string:
 
 ```python
-import os
-from datasets import load_dataset
-
-# Set the canary string (hint: it's the name of this repo)
-os.environ['MMSEARCH_PLUS'] = 'your_canary_string'
-
-# Load dataset with transparent decryption
-dataset = load_dataset("Cie1/MMSearch-Plus", trust_remote_code=True)
-
-# Explore the dataset - everything is already decrypted!
-print(f"Dataset size: {len(dataset['train'])}")
-print(f"Features: {list(dataset['train'].features.keys())}")
-
-# Access a sample
-sample = dataset['train'][0]
-print(f"Question: {sample['question']}")
-print(f"Answer: {sample['answer']}")
-print(f"Category: {sample['category']}")
-print(f"Number of images: {sample['num_images']}")
-
-# Access images (PIL Image objects)
-sample['img_1'].show()  # Display the first image
+from decrypt_after_load import decrypt_mmsearch_plus
+    
+# Load and decrypt in one step
+decrypted_ds = decrypt_mmsearch_plus(
+    dataset_path="Cie1/MMSearch-Plus",
+    canary='your_canary_string' # Set the canary string (hint: it's the name of this repo without username)
+)
 ```
 
 ## 👀 About MMSearch-Plus
