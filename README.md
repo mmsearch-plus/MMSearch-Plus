@@ -21,8 +21,6 @@ Official repository for the paper "[MMSearch-Plus: Benchmarking Provenance-Aware
 
 ## Usage
 
-**⚠️ Important: This dataset is encrypted to prevent data contamination. However, decryption is handled transparently by the dataset loader.**
-
 ### Dataset Usage
 
 Load the dataset with automatic decryption using your canary string:
