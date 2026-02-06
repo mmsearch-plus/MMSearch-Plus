@@ -11,7 +11,7 @@ Official repository for the paper "[MMSearch-Plus: Benchmarking Provenance-Aware
 ## 💥 News
 
 - **[2026.02.04]** 🌟 MMSearch-Plus is now in [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). There is a simple no-search implementation [here](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mmsearch_plus).
-- **[2026.01.29]** 🌟 Thanks [Vision-DeepResearch](https://osilly.github.io/Vision-DeepResearch/) for evaluating on our benchmark. It achieved a new SOTA of 37.8, surpassing the previous best of 37.6 from o3.
+- **[2026.01.29]** 🌟 Thanks [Vision-DeepResearch](https://osilly.github.io/Vision-DeepResearch/) for evaluating on our benchmark!
 - **[2025.01.26]** 🎊 MMSearch-Plus is accepted by ICLR 2026!
 - **[2025.09.26]** 🔥 We update the [arXiv paper](https://arxiv.org/abs/2508.21475) and release all MMSearch-Plus data samples in [huggingface dataset](https://huggingface.co/datasets/Cie1/MMSearch-Plus).
 - **[2025.08.29]** 🚀 We release the [arXiv paper](https://arxiv.org/abs/2508.21475).
