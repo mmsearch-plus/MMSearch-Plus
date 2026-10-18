@@ -84,6 +84,12 @@ Evaluation of closed- and open-source MLLMs shows:
 
 🚨 The [Leaderboard](https://mmsearch-plus.github.io/#leaderboard) is continuously being updated, welcoming the contribution of your excellent LMMs!
 
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+The MMSearch-Plus dataset is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), as specified in the [Hugging Face dataset card](https://huggingface.co/datasets/Cie1/MMSearch-Plus). The code license does not change the dataset's licensing terms.
+
 ## 🔖 Citation
 
 If you find **MMSearch-Plus** useful for your research and applications, please kindly cite using this BibTeX:
